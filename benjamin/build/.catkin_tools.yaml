@@ -1,0 +1,6 @@
+devel_space: /home/ros/git_res_Robot/p1_ws/benjamin/devel
+install: false
+install_space: /home/ros/git_res_Robot/p1_ws/benjamin/install
+profile: default
+source_space: /home/ros/git_res_Robot/p1_ws/benjamin/src
+workspace: /home/ros/git_res_Robot/p1_ws/benjamin

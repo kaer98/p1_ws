@@ -1,0 +1,12 @@
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/./local_setup.zsh
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/./setup.bash
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/./setup.zsh
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/./setup.sh
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/./local_setup.bash
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/./_setup_util.py
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/./cmake.lock
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/./local_setup.sh
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/./env.sh
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/ros/git_res_Robot/p1_ws/benjamin/devel/lib/pkgconfig/catkin_tools_prebuild.pc

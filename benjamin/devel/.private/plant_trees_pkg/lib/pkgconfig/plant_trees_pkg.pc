@@ -1,0 +1,8 @@
+prefix=/home/ros/git_res_Robot/p1_ws/benjamin/devel/.private/plant_trees_pkg
+
+Name: plant_trees_pkg
+Description: Description of plant_trees_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ros/git_res_Robot/p1_ws/benjamin/devel/.private/plant_trees_pkg/lib 
+Requires: geometry_msgs tf nav_msgs std_msgs turtlesim actionlib move_base_msgs

@@ -1,0 +1,1 @@
+/home/ros/git_res_Robot/p1_ws/benjamin/devel/.private/plant_trees_pkg/lib/pkgconfig/plant_trees_pkg.pc
