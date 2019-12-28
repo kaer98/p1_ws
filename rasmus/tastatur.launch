@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <include file="$(find turtlebot_bringup)/launch/3dsensor.launch" />
+  <include file="$(find turtlebot_bringup)/launch/minimal.launch" />
+  <include file="$(find turtlebot_teleop)/launch/keyboard_teleop.launch" />
+  <node name="$(anon rviz)" pkg="rviz" type="rviz" args="-d $(find rasmus)/config/camera.rviz"/>
+</launch>
