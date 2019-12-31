@@ -136,9 +136,6 @@ include_directories(
 # add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-add_executable(roundround src/roundround.cpp)
-add_executable(print_pose src/print_pose.cpp)
-add_executable(get_close src/get_close.cpp)
 add_executable(talker src/talker.cpp)
 add_executable(listener src/listener.cpp)
 ## Rename C++ executable without prefix
@@ -152,17 +149,7 @@ add_executable(listener src/listener.cpp)
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(roundround
-  ${catkin_LIBRARIES}
-)
 
-target_link_libraries(print_pose
-  ${catkin_LIBRARIES}
-)
-
-target_link_libraries(get_close
-  ${catkin_LIBRARIES}
-)
 target_link_libraries(listener
   ${catkin_LIBRARIES}
 )
@@ -185,7 +172,7 @@ target_link_libraries(talker
 
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html
-install(TARGETS roundround print_pose get_close talker listener
+install(TARGETS talker listener
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
